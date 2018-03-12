@@ -1,37 +1,90 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html xmlns="https://dlwawesome.github.io/coin-price-estimates/">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>handy-HTML.com - Create a simple CSS dropdown menu</title>
+<style type="text/css">
+ul {
+    font-family: Arial, Verdana;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul li {
+    display: block;
+    position: relative;
+    float: left;
+}
+li ul {
+    display: none;
+}
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    border-top: 1px solid #ffffff;
+    padding: 5px 15px 5px 15px;
+    background: #1e7c9a;
+    margin-left: 1px;
+    white-space: nowrap;
+}
+ul li a:hover {
+background: #3b3b3b;
+}
+li:hover ul {
+    display: block;
+    position: absolute;
+}
+li:hover li {
+    float: none;
+    font-size: 11px;
+}
+li:hover a { background: #3b3b3b; }
+li:hover li a:hover {
+    background: #1e7c9a;
+}
+</style>
 
-You can use the [editor on GitHub](https://github.com/DLWAwesome/coin-price-estimates/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Insert quality here:
+<ul id="qualities">
+    <li><a href="#">Uncirculated</a></li>
+    <li><a href="#">Nearly Uncirculated</a></li>
+    <li><a href="#">Extremely Fine</a>
+    <li><a href="#">Very Fine</a></li>
+    <li><a href="#">Fine</a></li>
+    <li><a href="#">Very Good</a></li>
+    <li><a href="#">Good</a></li>
+    <li><a href="#">About Good</a></li>
+    <li><a href="#">Fair</a></li>
+    <li><a href="#">Poor</a></li>
+</ul>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DLWAwesome/coin-price-estimates/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Insert coin type here:
+<ul id="qualities">
+    <li><a href="#">Half Cent</a></li>
+    <li><a href="#">Large Cent</a></li>
+    <li><a href="#">Small Cent</a>
+    <li><a href="#">Two-Cent Piece</a></li>
+    <li><a href="#">Silver Three-Cent Piece</a></li>
+    <li><a href="#">Nickel Three-Cent Piece</a></li>
+    <li><a href="#">Nickel</a></li>
+    <li><a href="#">Half Dime</a></li>
+    <li><a href="#">Dime</a></li>
+    <li><a href="#">Twenty-Cent Piece</a></li>
+    <li><a href="#">Quarter</a></li>
+    <li><a href="#">Half Dollar</a></li>
+    <li><a href="#">Dollar</a></li>
+    <li><a href="#">U.S. Gold Coin</a></li>
+    <li><a href="#">U.S. Commemorative</a></li>
+</ul>
+<textarea cols="50" rows="5">
+enter year
+</textarea>
+</body>
+</html>
